@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Cooking Units</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Cooking Conversions</h1>
+
+      <form id="add">
+        <div class="form-group">
+          <label for="teaspoon">Teaspoons</label>
+          <input id="teaspoon" class="form-control" type="text">
+        </div>
+        <button type="submit" class="btn bg-primary">Convert to Tablespoons</button>
+      </form>
+
+      <form id="convertToCup">
+        <div class="form-group">
+          <label for="tablespoon">Tablespoons</label>
+          <input id="tablespoon" class="form-control" type="text">
+        </div>
+        <button type="submit" class="btn bg-primary">Convert to Cups</button>
+      </form>
+
+      <form id="convertToQuart">
+        <div class="form-group">
+          <label for="cup">Cups</label>
+          <input id="cup" class="form-control" type="text">
+        </div>
+        <button type="submit" class="btn bg-primary">Convert to Quarts</button>
+      </form>
+
+      <form id="convertToGallon">
+        <div class="form-group">
+          <label for="quart">Quarts</label>
+          <input id="quart" class="form-control" type="text">
+        </div>
+        <button type="submit" class="btn bg-primary">Convert to Gallons</button>
+      </form>
+
+      <div id="value">
+        <h2 id="answer"></h2>
+      </div>
+    </div>
+  </body>
+</html>
